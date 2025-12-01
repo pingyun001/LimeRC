@@ -1,0 +1,70 @@
+* text=auto
+
+*.c text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.cc text eol=lf
+*.cxx text eol=lf
+
+*.s text eol=lf
+*.S text eol=lf
+*.asm text eol=lf
+
+*.sh text eol=lf
+*.py text eol=lf
+*.pl text eol=lf
+*.bat text eol=crlf
+
+*.txt text eol=lf
+*.md text eol=lf
+*.mk text eol=lf
+Makefile text eol=lf
+*.make text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+*.xml text eol=lf
+*.json text eol=lf
+
+*.vcxproj text eol=crlf
+*.csproj text eol=crlf
+*.sln text eol=crlf
+
+*.ld text eol=lf
+*.icf text eol=lf
+*.scat text eol=lf
+
+*.svd text eol=lf
+*.pdsc text eol=lf
+
+*.launch text eol=lf
+*.debug text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.pdf binary
+*.doc binary
+*.docx binary
+
+*.o binary
+*.obj binary
+*.exe binary
+*.dll binary
+*.so binary
+*.a binary
+*.lib binary
+
+*.bin binary
+*.hex binary
+*.elf binary
+*.axf binary
+*.out binary
