@@ -29,7 +29,6 @@
 *.dylib
 
 # Executables
-*.exe
 *.out
 *.app
 *.i*86
@@ -50,6 +49,12 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# debug information files & others
 *.dwo
+*.dbgconf
+SOFTWARE/LimeCam_Release/MDK-ARM/RTE/
+SOFTWARE/LimeCam_Release/MDK-ARM/LimeCamV3/
 .codemap/main-panel.json
+
+# user
+*.Lime
