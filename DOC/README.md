@@ -1,4 +1,7 @@
 # 文件夹说明
+## markdown_picture文件夹
+> 照片素材，用于本仓库内markdown文件展示
+
 ## sdcard_resources文件夹
 > 这些图片均由AI生成，仅用于测试机内jpeg软解码器
 
