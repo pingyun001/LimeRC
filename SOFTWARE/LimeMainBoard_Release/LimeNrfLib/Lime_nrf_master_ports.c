@@ -1,5 +1,4 @@
 #include "Lime_nrf_master_ports.h"
-#include "FAST_Nrf.h"
 #include "spi.h"
 
 #include <string.h>

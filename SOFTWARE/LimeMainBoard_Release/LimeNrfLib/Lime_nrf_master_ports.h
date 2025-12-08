@@ -2,9 +2,6 @@
 #define __LIME_NRF_SLAVE_PORTS_H
 
 #include "main.h"
-
-#include <stdint.h>
-
 #include "Lime_nrf_master.h"
 
 

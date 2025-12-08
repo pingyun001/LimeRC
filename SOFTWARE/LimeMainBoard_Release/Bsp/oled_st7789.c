@@ -271,9 +271,6 @@ void oled_st7789_Init(void)
     /* 显示开 */
     LCD_Write_Cmd(0x21);
     LCD_Write_Cmd(0x29);
-    
-    /* 清屏为白色 */
-//    oled_st7789_Clear(WHITE);
 
     /*打开显示*/
     LCD_PWR(1);

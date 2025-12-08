@@ -2,7 +2,7 @@
 #define __LIME_NRF_VIDEO_H
 
 #include "main.h"
-
+#include "Lime_nrf_master.h"
 
 
 typedef struct

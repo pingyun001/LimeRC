@@ -54,6 +54,7 @@ dkms.conf
 *.dbgconf
 SOFTWARE/LimeCam_Release/MDK-ARM/RTE/
 SOFTWARE/LimeCam_Release/MDK-ARM/LimeCamV3/
+SOFTWARE/LimeMainBoard_Release/MDK-ARM/LimeRCV3
 .vscode
 .codemap/main-panel.json
 

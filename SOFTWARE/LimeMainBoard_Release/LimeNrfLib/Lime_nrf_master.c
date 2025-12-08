@@ -1,7 +1,4 @@
 #include "Lime_nrf_master.h"
-#include "FAST_Nrf.h"
-
-
 #include <stdio.h>
 #include <string.h>
 

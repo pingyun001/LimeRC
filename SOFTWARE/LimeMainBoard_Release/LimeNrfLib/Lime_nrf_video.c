@@ -1,5 +1,4 @@
 #include "Lime_nrf_video.h"
-#include "FAST_Nrf.h"
 #include <string.h>
 
 #if 1

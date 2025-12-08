@@ -2932,11 +2932,6 @@
               <FilePath>..\Bsp\Lime_sub_board.c</FilePath>
             </File>
             <File>
-              <FileName>ayakajpeg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Bsp\ayakajpeg.c</FilePath>
-            </File>
-            <File>
               <FileName>Lime_jpeg_decode.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Bsp\Lime_jpeg_decode.c</FilePath>
@@ -2945,11 +2940,6 @@
               <FileName>Lime_eeprom.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Bsp\Lime_eeprom.c</FilePath>
-            </File>
-            <File>
-              <FileName>acamPic.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Bsp\acamPic.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3010,11 +3000,6 @@
               <FileName>Lime_nrf_master.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LimeNrfLib\Lime_nrf_master.c</FilePath>
-            </File>
-            <File>
-              <FileName>FAST_Nrf.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LimeNrfLib\FAST_Nrf.c</FilePath>
             </File>
             <File>
               <FileName>Lime_nrf_video.c</FileName>
@@ -6374,11 +6359,6 @@
               <FilePath>..\Bsp\Lime_sub_board.c</FilePath>
             </File>
             <File>
-              <FileName>ayakajpeg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Bsp\ayakajpeg.c</FilePath>
-            </File>
-            <File>
               <FileName>Lime_jpeg_decode.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Bsp\Lime_jpeg_decode.c</FilePath>
@@ -6387,11 +6367,6 @@
               <FileName>Lime_eeprom.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Bsp\Lime_eeprom.c</FilePath>
-            </File>
-            <File>
-              <FileName>acamPic.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Bsp\acamPic.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -6452,11 +6427,6 @@
               <FileName>Lime_nrf_master.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LimeNrfLib\Lime_nrf_master.c</FilePath>
-            </File>
-            <File>
-              <FileName>FAST_Nrf.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LimeNrfLib\FAST_Nrf.c</FilePath>
             </File>
             <File>
               <FileName>Lime_nrf_video.c</FileName>

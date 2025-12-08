@@ -3,7 +3,6 @@
 
 #include "main.h"
 
-
 void nrfVideo_taskYIELD_exHook(bool isISR);
 
 void nrfVideo_Stop(void);

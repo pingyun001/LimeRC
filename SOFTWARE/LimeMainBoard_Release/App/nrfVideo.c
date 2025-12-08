@@ -6,8 +6,6 @@
 #include "Lime_jpeg_decode.h"
 #include "oled_st7789.h"
 #include "Lime_nrf_video.h"
-
-#include "FAST_Nrf.h"
 #include "Lime_App_Hal.h"
 
 static TaskHandle_t nrfVideoTask_handler = NULL;
@@ -24,20 +22,9 @@ void nrfVideo_main(void const * argument)
 	/* get the handle of task */
 	nrfVideoTask_handler = xTaskGetHandle(pcTaskGetName(NULL));
 	
-//	/* waiting bspInfo task */
-//	if(ulTaskNotifyTake(pdTRUE,pdMS_TO_TICKS(3000))  != pdPASS)
-//	{
-//		LEprintf(">>>Task:%s, ulTaskNotifyTake Timeout!\n", __FUNCTION__);
-//		
-//		while(1)
-//		{	
-//			osDelay(1000);
-//		}
-//	}
-//	else
-	{
-		LEprintf(">>>Task:%s, start!\n", __FUNCTION__);
-	}
+
+	LEprintf(">>>Task:%s, start!\n", __FUNCTION__);
+
 	
 	nrfVideo_Stop();
 	
@@ -68,11 +55,7 @@ restart:
 		SCB_CleanDCache_by_Addr((uint32_t*)video_pack->buf, video_pack->length + 32);
 		Lime_jpeg_decode((uint8_t*)video_pack->buf, video_pack->length);
 		
-#if 0
-		oled_st7789_ColorFill(0, 0, 239, 239, (uint16_t*)rgb565buf);
-#else
 		LimeHAL_VideoAddedNewFrame();
-#endif
 	}
 }
 
