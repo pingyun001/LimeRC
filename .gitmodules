@@ -1,0 +1,4 @@
+[submodule "SOFTWARE/LimeMainBoard_Release/lvgl"]
+	path = SOFTWARE/LimeMainBoard_Release/lvgl
+	url = https://github.com/lvgl/lvgl.git
+	branch = release/v9.3
