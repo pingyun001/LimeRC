@@ -21,4 +21,4 @@
 
 推荐keil版本V5.38及以上
 
-其中遥控器主板源代码中额外需要安装Keil RTE环境 LVGL 9.3 Release库
+注意编译主板固件LimeMainBoard_Release时，需确认lvgl子模块也被克隆
