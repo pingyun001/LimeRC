@@ -149,10 +149,6 @@ int main(void)
 	/* Init WS2812 */
 	ws2812_Init();
 	
-//	while(1)
-//		;
-//	HAL_Delay(100);
-	
 	while(1)
 	{
 		static uint32_t kr_release_time = 0;
